@@ -73,7 +73,7 @@ a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("/images/synthwave.jpg");
+    background-image: url("file:///C:/Users/eelsauce/bootcamp/challenge-week-02/images/synthwave.jpg");
     background-size: cover;
     background-position: center;
 }
