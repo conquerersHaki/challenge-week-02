@@ -1,0 +1,248 @@
+/* universal selector for the entirety of the page */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* setting my bg color */
+
+body {
+    background-color: #111111;
+    font-size: 100%;
+}
+/* setting the font and attributes for my header/navbar content */
+.nav {
+    padding: 20px;
+    background-color: #030303;
+    color :#8d0273;
+}
+
+/* Found an online resource that walked me through turning my header text color into a gradient! */
+
+.nav h1 {
+    display: inline-block;
+    font-size: 40px;
+    font-family: Tahoma;
+    border-style: double;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(#8d0273, #1b9fec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav div ul li {
+    font-size:x-large;
+    float: right;
+    margin: 15px;
+    padding-right: 15px;
+    list-style-type: none;
+}
+
+/* I wanted to make buttons to make my navbar more alluring and added shadow to make the buttons pop! */
+
+a {
+    text-decoration: none;
+}
+
+
+.button {
+	width: 220px;
+	height: 50px;
+	outline: none;
+	color: #1b9fec;
+	background: #111;
+	cursor: pointer;
+	position: relative;
+	z-index: 0;
+  border: 1px solid #8d0273; 
+	border-radius: 10px;
+}
+
+/* code for the topmost photo */
+
+.city {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/Develop/images/synthwave.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* felt like making the background of the header transparent
+and making the other headers a gradient as well */
+
+.about-me h1 {
+    font-size: 40px;
+    display: inline;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-style: double;
+    background: -webkit-linear-gradient(#8d0273, #1b9fec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid #8d0273;
+    float: left;
+    border-radius: 30px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+/* adjusting size, border, etc of my photo */
+
+.about-me img {
+    max-height: 300px;
+    display: inline;
+    align-content: center;
+    border-style: double;
+    border-radius: 20px;
+    border: 5px solid #1b9fec;
+    float: left;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+/* adjusting positioning, font size, color, etc for p */
+
+.about-me p {
+  color:#e6e6e6;
+  font-size: 30px;
+  text-align: center;
+  align-content: center;
+  border-style: double;
+  border-radius: 30px;
+  border: 1px solid #1b9fec;
+  padding: 4em;
+  border-bottom: 1px solid #1b9fec;
+}
+
+/* making the boxes flex and stack in minimized browser */
+
+.my-work {
+  flex: 4;
+  background-color: #111111;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-style: double;
+  border-radius: 30px;
+  border: 5px solid #1b9fec
+}
+
+/* more framing and coloring for headers */
+
+.card h2 {
+  font-size: 40px;
+  display: inline;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background: -webkit-linear-gradient(#8d0273, #1b9fec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #8d0273;
+  border-radius: 30px;
+  float: left;
+}
+
+/* adjusting placement and borders to how i imagined them */
+/* also added hover effect for the my work images */
+
+.card img {
+  width: 100%;
+  min-width: 400px;
+  flex-wrap: wrap;
+  max-height: 300px;
+  display: inline;
+  align-content: center;
+  border-radius: 20px;
+  border: 5px solid #1b9fec;
+  align-self:center;
+}
+
+/* targeting first child to make it fit the length of the screen  */
+
+.card:first-child {
+  width: 100%;
+} 
+
+/* creating a subtle hover effect for the my-work images */
+
+.card img:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ff8eea;
+}
+
+.card img:hover {
+  color: #ff8eea;
+  box-shadow: 0 0 10px #ff8eea;
+  text-shadow: 0 0 5px #ff8eea;
+}
+
+/* here comes the contact me! */
+
+.contact-me {
+  flex: 4;
+  background-color: #111111;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-style: double;
+  border-radius: 30px;
+  border: 5px solid #1b9fec
+}
+
+/* making this section wrap as well */
+
+.contact-me h1 {
+  font-size: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-style: double;
+  background: -webkit-linear-gradient(#8d0273, #1b9fec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid #8d0273;
+  border-radius: 30px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.contact-me li {
+  font-size: 20px;
+  list-style-type: none;
+  color:#e6e6e6;
+  max-height: 300px;
+  display: inline;
+  align-content: center;
+  border-style: double;
+  border-radius: 20px;
+  border: 5px solid #1b9fec;
+  float: left;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+/* Added code for more responsive web design  */
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+    .card {
+      width: 100%;
+    }
+}

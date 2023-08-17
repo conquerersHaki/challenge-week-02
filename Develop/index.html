@@ -5,26 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keighley's Portfolio</title>
     <!-- Added page title as well as favicon for the page. -->
-    <link rel="icon" href="./assets/images/icons8-pokeball-24.png">
+    <link rel="icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <link rel="reset" href="./assets/css/reset.css"/>
 </head>
 <body>
     <!-- creating heading and navbar, which will be at the same level -->
     <section> 
-        <div class="heading">
-            <h1>My Portfolio</h1>
+        <div class="nav">
+            <h1>Keighley's Portfolio</h1>
             <div>
                 <ul>
-                    <li> <a href="#about-me">About Me</a></li>
-                    <li> <a href="#my-work">My Work</a></li>
-                    <li> <a href="#contact-me">Contact Me</a></li>
-                    <li> <a href="#resume" title="coming_soon">Resume</a></li>
+                    <li> <a href="#resume" class="button" type="button" title="coming soon">Resume</a></li>
+                    <li> <a href="#contact-me" class="button" type="button">Contact Me</a></li>
+                    <li> <a href="#my-work" class="button" type="button">My Work</a></li>
+                    <li> <a href="#about-me" class="button" type="button">About Me</a></li>
                     <!-- Included a tooltip for the resume link as I don't have a coding resume yet -->
                 </ul>
             </div>
         </div>
     </section>
-    
+<!-- Here is my image for right below the heading/navbar -->
+    <div class="city"></div>
+<!-- Here I'm getting to the guts of the web application -->
+    <section>
+        <div id="about-me" class="about-me">
+            <h1><u>About Me</u></h1>
+            <div id="about-me" class="about-me">
+            <img src="./images/headshot.jpg" alt="Keighley headshot">
+            <p>Hello! I'm Keighley Kendig, a 26 year old programmer in the making. Coming from a childhood
+                where I have always been surrounded by technology, computers and video games, I've known
+                that I enjoy coding for a long time. After learning I would be getting medically
+                discharged from the United States Air Force, this harsh reality ended up propelling my love
+                and motivation to pursue coding as a career! I wouldn't have had things go any other way.
+            </p>
+            <br>
+        </div>
+    </section>
+<!-- Here I'm adding the my work section, but they will all be coming soon as this
+     is the first real web application I am building from scratch! -->
+        <main>
+            <section id="my-work" class="my-work">
+                <div class="card">
+                    <h2>My Work</h2>
+                    <img src="./images/coming-soon (1).jpg" alt="Coming soon">
+                </div>
+                <div class="card">
+                    <h2>My Work</h2>
+                    <img src="./images/coming-soon (1).jpg" alt="Coming soon">
+                </div>
+                <div class="card">
+                    <h2>My Work</h2>
+                    <img src="./images/coming-soon (1).jpg" alt="Coming soon">
+                </div>
+                <div class="card">
+                    <h2>My Work</h2>
+                    <img src="./images/coming-soon (1).jpg" alt="Coming soon">
+                </div>
+            </section>
+        </main>
+<!-- Here I'm adding the contact information line -->
+        <section id="contact-me" class="contact-me">   
+            <div id="contact-me" class="contact-me">
+                <h1>Contact me</h1>
+                <ul>
+                    <li><u>817-658-8703</u></li>
+                    <li><u>keighleychristina@yahoo.com</u></li>
+                    <li><a href="https://github.com/conquerersHaki"><u>GitHub</u></a></li>
+                </ul>
+            </div>
+        </section> 
 </body>
 </html>
