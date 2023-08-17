@@ -7,7 +7,7 @@
 
 ## To access this web application, you can click the link provided() or gain access to it through GitHub.
 
-![Application screenshot](./Develop/images/Screenshot%202023-08-17%20131433.jpg)
+![Application screenshot](./images/Screenshot%202023-08-17%20131433.jpg)
 
 
 ## I followed a couple of tutorials and referenced different code from developers who kindly shared their fun effects or other ideas to share with the world. I’ve linked them below to credit them. 
