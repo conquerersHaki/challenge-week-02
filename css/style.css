@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    padding: 0;
+    padding: 1px;
     margin: 0;
 }
 
@@ -140,6 +140,12 @@ and making the other headers a gradient as well */
 }
 
 /* more framing and coloring for headers */
+
+.card {
+  flex: wrap;
+  display: flex;
+  align-items: flex-end;
+}
 
 .card h2 {
   font-size: 40px;
