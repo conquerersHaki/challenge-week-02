@@ -4,6 +4,10 @@
     box-sizing: border-box;
     padding: 1px;
     margin: 0;
+    font-family: 'Mallanna', sans-serif;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Roboto Slab', serif;
+
 }
 
 /* setting my bg color */
@@ -15,7 +19,7 @@ body {
 /* setting the font and attributes for my header/navbar content */
 .nav {
     padding: 20px;
-    background-color: #030303;
+    background-color: transparent;
     color :#8d0273;
 }
 
@@ -73,7 +77,7 @@ a {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("https://lh3.googleusercontent.com/xNqC4jJlMqMNMhnXRp2K3OY1CodSbvFv8tmLMLxfe3Z1-dRuzGGZ0fJ-caPxJMLeHMlJ8YPsnOr5DOIDDsuCbhURqyDIhzfnphqnz0KkIg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("C:\Users\eelsauce\bootcamp\challenge-week-02\images\synthwave.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -123,13 +127,15 @@ and making the other headers a gradient as well */
   border: 1px solid #1b9fec;
   padding: 4em;
   border-bottom: 1px solid #1b9fec;
+  text-shadow: 7px 7px 5px  rgb(0, 0, 0);
+  font-weight: 400;
 }
 
 /* making the boxes flex and stack in minimized browser */
 
 .my-work {
   flex: 4;
-  background-color: #111111;
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -141,15 +147,17 @@ and making the other headers a gradient as well */
 
 /* more framing and coloring for headers */
 .card h2 {
+  color: magenta;
   font-size: 40px;
   display: inline;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   background: -webkit-linear-gradient(#8d0273, #1b9fec);
+  text-shadow: 7px 5px 10px  rgb(20, 20, 20);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  border: 1px solid #8d0273;
+  border: 3px solid #8d0273;
   border-radius: 30px;
   float: left;
+  padding: 10px;
 }
 
 /* adjusting placement and borders to how i imagined them */
@@ -190,7 +198,7 @@ and making the other headers a gradient as well */
 
 .contact-me {
   flex: 4;
-  background-color: #111111;
+  background-color: rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -209,10 +217,11 @@ and making the other headers a gradient as well */
   background: -webkit-linear-gradient(#8d0273, #1b9fec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 1px solid #8d0273;
+  border: 3px solid #8d0273;
   border-radius: 30px;
   margin-top: 16px;
   margin-left: 16px;
+  padding: 10px;
 }
 
 .contact-me li {
@@ -224,10 +233,11 @@ and making the other headers a gradient as well */
   align-content: center;
   border-style: double;
   border-radius: 20px;
-  border: 5px solid #1b9fec;
+  border: 3px solid #1b9fec;
   float: left;
   margin-top: 1em;
   margin-left: 1em;
+  padding: 10px;
 }
 
 /* Added code for more responsive web design  */
