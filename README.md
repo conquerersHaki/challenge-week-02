@@ -5,7 +5,7 @@
 ## The application is simple to use. There is a navigation menu at the top right where clicking any of those links will bring you to the corresponding section of the portfolio. At the bottom of the page, I’ve listed a few ways to contact me, including a link that will bring the user to my GitHub page holding my repositories and previous coding work. Currently, there are no completed project in the “My work” section, but they’re coming soon! On top of that, I have not built a resume as I am still learning and haven’t had experience in this field aside from the program, so a tooltip was added to that navigation option to signify that, in time, there will be a link to my resume in the future.
 
 
-## To access this web application, you can click the link provided(https://conquerershaki.github.io/challenge-week-02/) or gain access to it through GitHub.
+## To access this web application, you can click the link provided(https://conquerershaki.github.io/portfolio/) or gain access to it through GitHub.
 
 ![Application screenshot](./images/Screenshot%202023-08-17%20131433.jpg)
 
