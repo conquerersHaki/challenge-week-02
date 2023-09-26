@@ -134,7 +134,6 @@ and making the other headers a gradient as well */
 /* making the boxes flex and stack in minimized browser */
 
 .my-work {
-  flex: 4;
   background-color: rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
@@ -144,6 +143,7 @@ and making the other headers a gradient as well */
   border-radius: 30px;
   border: 5px solid #1b9fec
 }
+
 
 /* more framing and coloring for headers */
 .card h2 {
@@ -165,21 +165,15 @@ and making the other headers a gradient as well */
 
 .card img {
   width: 100%;
-  min-width: 400px;
+  max-width: 500px;
   flex-wrap: wrap;
-  max-height: 300px;
   display: inline;
   align-content: center;
   border-radius: 20px;
   border: 5px solid #1b9fec;
   align-self:center;
+  margin: 20px;
 }
-
-/* targeting first child to make it fit the length of the screen  */
-
-.card:first-child {
-  width: 100%;
-} 
 
 /* creating a subtle hover effect for the my-work images */
 
